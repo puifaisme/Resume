@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat/Montserrat-Regular.ttf) format('truetype');;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../font/Oswald/Oswald-VariableFont_wght.ttf) format('truetype');;
+}
+
+@font-face {
+    font-family: 'Big-display';
+    src: url(../font/Big-display/BigShouldersStencilDisplay-Medium.ttf) format('truetype');;
+}
+
+.background {
+    /* background-color: #2C3539; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.font-mont {
+    font-family: 'Montserrat';
+}
+
+.font-osw {
+    font-family: 'Oswald';
+}
+
+.font-big {
+    font-family: 'Big-display';
+}
+
+.font-name {
+    padding-top: 17%;
+    font-size: 80px;
+    font-weight: bolder;
+    /* color: white */
+    color: black;
+}
+
+.edit-hi {
+    padding-top: 16%;
+    padding-left: 37%;
+    padding-right: 1%;
+    font-size: 80px;
+    font-weight: bolder;
+    color: #FF4612;
+}
+
+.flexbox {
+    display: flex;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {top: -800px;}
+    to {top: 0px;}
+}
+
+@keyframes example1 {
+    from {background-color: white;}
+    to {background-color: FF4612;}
+}
+
+
+.font-position {
+    padding-left: 51%;
+    /* padding-top: 0.5%; */
+    font-size: 15px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    color: black;
+}
+
+.button-port {
+    border: 2px solid #FF4612;
+    cursor: center;
+    /* background-color: #3A3F58; */
+    background-color: white;
+    font-family: 'Montserrat';
+    padding: 10px 30px;
+    color: #FF4612;
+    margin-left: 44%;
+    margin-top: 2%;
+    text-decoration: none;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+}
+
+.button-download {
+    border: 2px solid #FF4612;
+    cursor: center;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    padding: 10px 30px;
+    color: white;
+    margin-left: 3%;
+    text-decoration: none;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+}
+
+.button-port:hover {
+    background-color: #FF4612;
+    color: white;
+}
+
+.button-download:hover {
+    border: 2px solid #FF4612;
+    background-color: white;
+    color: #FF4612;
+}
+
+.img {
+    position:absolute;
+    width: 15%;
+    height: 50%;
+    background-color: #FF4612;
+    margin-left: 20%;
+    margin-top:11%;
+    /* position: relative; */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
