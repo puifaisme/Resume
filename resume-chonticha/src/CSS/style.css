@@ -91,7 +91,7 @@
     text-decoration: none;
     position: relative;
     animation-name: example;
-    animation-duration: 1.5s;  
+    animation-duration: 1s;  
     animation-fill-mode: forwards;
 }
 
@@ -106,8 +106,27 @@
     text-decoration: none;
     position: relative;
     animation-name: example;
-    animation-duration: 1.5s;  
+    animation-duration: 1s;  
     animation-fill-mode: forwards;
+}
+
+.button-download1 {
+    border: 2px solid #FF4612;
+    cursor: pointer;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    padding: 10px 30px;
+    color: white;
+    margin-left: 52%;
+    margin-top: 1.5%;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button-download1:hover {
+    background-color: white;
+    border: 2px solid #FF4612;
+    color: #FF4612;
 }
 
 .button-port:hover {
@@ -132,4 +151,204 @@
     animation-name: example1;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+}
+.img-tab {
+    position:absolute;
+    width: 15%;
+    height: 6%;
+    background-color: white;
+    margin-left: 20%;
+    margin-top:31.64%;
+    /* position: relative; */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.moon-icon {
+    width: 4%;
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.face-icon {
+    position: absolute;
+    width: 1.5%;
+    margin-top: 32.1%;
+    margin-left: 22%;
+}
+
+.face-icon1 {
+    position: absolute;
+    width: 1.5%;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.tel-icon {
+    position: absolute;
+    width: 1.2%;
+    margin-top: 32.4%;
+    margin-left: 25%;
+}
+
+.tel-icon1 {
+    position: absolute;
+    width: 1.2%;
+    margin-top: 2%;
+    margin-left: 17%;
+}
+
+.mail-icon {
+    position: absolute;
+    width: 1.5%;
+    margin-top: 32.3%;
+    margin-left: 27.8%;
+}
+
+.mail-icon1 {
+    position: absolute;
+    width: 1.5%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.git-icon {
+    position: absolute;
+    width: 1.5%;
+    margin-top: 32.3%;
+    margin-left: 30.9%;
+}
+
+.git-icon1 {
+    position: absolute;
+    width: 1.5%;
+    margin-top: 2%;
+    margin-left: 23%;
+}
+
+.nav-tab {
+    position: relative;
+    background-color: #FF4612;
+    width: 100vw;
+    height: 110px;
+    animation-name: navbar;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes navbar {
+    from {
+        width: 15%;
+        height: 110px;
+        margin-left: 20%;
+       margin-top:11%; }
+    to {top: 0px;}
+}
+
+.edit-pic {
+    width: 520px;
+    height: 600px;
+    margin-top: 0.7%;
+    position: absolute;
+    margin-left: 8%;
+}
+
+.aboutme {
+    padding-top: 8%;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 52%;
+}
+
+.descript {
+    padding-top: 1%;
+    font-size: 15px;
+    margin-left: 52%;
+}
+
+.flex {
+    display: flex;
+}
+
+.position {
+    margin-left: 52%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FF4612;
+    margin-bottom: 1%;
+}
+
+hr.style1{
+	border-top: 1px solid black;
+    width: 20%;
+    margin-left: 52%;
+}
+
+.edit-about {
+    color: black;
+    margin-left: 31%;
+    margin-top: 3%;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-port {
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-port:hover {
+    color: black;
+}
+
+.edit-skill {
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-skill:hover {
+    color: black;
+}
+
+.edit-cont:hover {
+    color: black;
+}
+
+.edit-cont {
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.name {
+    margin-top: 2.5%;
+    margin-left: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: coral;
 }
