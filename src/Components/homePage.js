@@ -68,7 +68,7 @@ function homePage() {
       <div className="font-mont font-position">Front-end Developer</div>
       <div>
         <Link to="/aboutMe"><button className="button-port">View my portfolio</button></Link>
-        <a href={resume} download="Chonticha_Resume.pdf"> <button className="button-download">Download resume</button></a>
+        <a href={resume} download="Chonticha_Resume.pdf"><button className="button-download">Download resume</button></a>
       </div>
     </div>
   );
