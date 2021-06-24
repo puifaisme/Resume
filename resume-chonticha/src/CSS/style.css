@@ -13,6 +13,11 @@
     src: url(../font/Big-display/BigShouldersStencilDisplay-Medium.ttf) format('truetype');;
 }
 
+@font-face {
+    font-family: 'Kanit';
+    src: url('../font/Kanit/Kanit-Medium.ttf') format('truetype');
+}
+
 .background {
     /* background-color: #2C3539; */
     width: 100vw;
@@ -237,6 +242,13 @@
     animation-fill-mode: forwards;
 }
 
+.nav-tab1 {
+    position: relative;
+    background-color: #FF4612;
+    width: 100vw;
+    height: 110px;
+}
+
 @keyframes navbar {
     from {
         width: 15%;
@@ -285,8 +297,14 @@ hr.style1{
     margin-left: 52%;
 }
 
+hr.style2{
+	border-top: 1px solid black;
+    width: 55%;
+    margin-left: 45%;
+}
+
 .edit-about {
-    color: black;
+    color: white;
     margin-left: 31%;
     margin-top: 3%;
     cursor: pointer;
@@ -297,16 +315,20 @@ hr.style1{
     font-size: 15px;
 }
 
+.edit-about:hover {
+    color: black;
+}
+
 .edit-port {
     color: white;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 54px;
+    margin-left: 75px;
     cursor: pointer;
     text-decoration: none;
     border: none;
     background-color: #FF4612;
     font-family: 'Montserrat';
-    font-size: 15px;
+    font-size: 15px; 
 }
 
 .edit-port:hover {
@@ -315,8 +337,8 @@ hr.style1{
 
 .edit-skill {
     color: white;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 54px;
+    margin-left: 75px;
     cursor: pointer;
     text-decoration: none;
     border: none;
@@ -335,8 +357,8 @@ hr.style1{
 
 .edit-cont {
     color: white;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 54px;
+    margin-left: 75px;
     cursor: pointer;
     text-decoration: none;
     border: none;
@@ -351,4 +373,291 @@ hr.style1{
     font-size: 20px;
     font-weight: bolder;
     color: coral;
+}
+
+.onpage {
+    color: black
+}
+
+.skills-edit {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 20%;
+    width: 50%;
+    padding: 80px 150px 0px 100px;
+    margin-top: 10%;
+}
+
+.react-edit {
+    width: 130px;
+    height: 100px;
+    margin-top: 115px;
+    margin-left: 10%;
+}
+
+.python-edit {
+    width: 200px;
+    height: 100px;
+    margin-top: 115px;
+}
+
+.boot-edit {
+    width: 130px;
+    height: 100px;
+    margin-top: 115px;
+}
+
+.html-edit {
+    width: 130px;
+    height: 100px;
+    margin-top: 115px;
+    margin-left: 60px;
+}
+
+.css-edit {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.sql-edit {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.post-edit {
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.hero-edit {
+    width: 150px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.node-edit {
+    width: 180px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+.git-edit {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.skill-edit {
+    margin-left: 25%;
+    width: 100%;
+    margin-top: 5%;
+}
+/*-------------------------------------------*/
+
+.edit-gif-106 {
+    width: 35%;
+    /* height: 160px; */
+}
+
+.edit-gif-106-1 {
+    width: 36%;
+    /* height: 160px; */
+}
+
+.edit-gif-106-2 {
+    width: 17.8%;
+    height: 178px;
+}
+
+.wid-106-header {
+    color: #FF4612;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.wid-106-hname {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.content-port {
+    color: black;
+    /* margin-left: 3%; */
+    font-size: 13px;
+    margin-top: 4%;
+    font-family: 'Kanit';
+    text-align: center;
+}
+
+.wid {
+    border: 2px solid #FF4612;
+    margin-left: 12%;
+    width: 45%;
+}
+
+.wid-1 {
+    border: 2px solid #FF4612;
+    margin-left: 12%;
+    width: 46%;
+}
+
+.wid-1-1 {
+    border: 2px solid #FF4612;
+    margin-left: 5.8%;
+    width: 22%;
+    height: 175px;
+}
+
+.wid1 {
+    border: 2px solid #FF4612;
+    margin-left: 5%;
+    width: 45%;
+}
+
+.wid1-1 {
+    border: 2px solid #FF4612;
+    margin-left: 6.5%;
+    width: 44.5%;
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.margin-1 {
+    margin-top: 3%;
+}
+
+.modal {
+    font-size: 12px;
+  }
+  .modal > .header {
+    width: 100%;
+    /* border-bottom: 1px solid gray; */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 15px;
+    text-align: center;
+
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+.view-more {
+    border: 2px solid #FF4612;
+    cursor: pointer;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    padding: 8px 20px;
+    color: white;
+    margin-left: 32%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.view-more:hover {
+    background-color: white;
+    border: 2px solid #FF4612;
+    color: #FF4612;
+}
+
+.edit-about-1 {
+    color: white;
+    margin-left: 476px;
+    margin-top: 56px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-port-1 {
+    margin-top: 46px;
+    margin-left: 75px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-port-2 {
+    color: white;
+    margin-top: 56px;
+    margin-left: 75px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-port-2:hover {
+    color: black;
+}
+
+.edit-skill-2 {
+    margin-top: 48px;
+    margin-left: 75px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-skill-1 {
+    color: white;
+    margin-top: 54px;
+    margin-left: 75px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #FF4612;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.edit-about-1:hover {
+    color: black;
+}
+
+.edit-port-1:hover {
+    color: black;
+}
+
+.edit-skill-1:hover {
+    color: black;
 }

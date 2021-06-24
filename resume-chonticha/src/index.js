@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import Home from './Components/homePage'
 import aboutMe from './Components/aboutMe'
+import portfolio from './Components/portfolio'
+import skills from './Components/skills'
+
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
@@ -14,6 +17,8 @@ ReactDOM.render(
    <Switch>
     <Route exact path="/" component={Home} />
     <Route path="/aboutMe" component={aboutMe} />
+    <Route path="/portfolio" component={portfolio} />
+    <Route path="/skills" component={skills} />
   </Switch>
   </BrowserRouter>, rootElement
 )
